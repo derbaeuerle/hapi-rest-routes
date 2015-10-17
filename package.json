@@ -1,0 +1,33 @@
+{
+  "name": "hapi-rest-routes",
+  "version": "1.0.0",
+  "description": "Hapi extension to generate restful routes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/grunt ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/derbaeuerle/hapi-rest-routes"
+  },
+  "keywords": [
+    "hapi restful rest routes controller"
+  ],
+  "author": "Dominic Baeuerle <d.baeuerle@s-v.de>",
+  "license": "GNU General Public License v2.0",
+  "bugs": {
+    "url": "https://github.com/derbaeuerle/hapi-rest-routes/issues"
+  },
+  "dependencies": {
+    "joi": "~6.9.1"
+  },
+  "devDependencies": {
+    "expect.js": "~0.3.0",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.1",
+    "grunt-mocha-cli": "~1.1.0",
+    "grunt-complexity": "~0.1.3",
+    "grunt-cli": "~0.1.9"
+  }
+}
